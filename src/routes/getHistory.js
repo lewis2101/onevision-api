@@ -1,7 +1,11 @@
+import {generate} from "./generate-token.js";
+
 export default (req, res) => {
+    if(!req.headers.token) return res.status(403).send({ type: 'AUTH_REQUIRED' })
+    if(!req.headers.token.includes('Bearer_')) return res.status(403).send({ type: 'AUTH_REQUIRED' })
     const data = [
         {
-            date: new Date('03.05.2024'),
+            date: '03.05.2024',
             fullName: "Мустафаев Бауыржан Байсебекович",
             sum: '2534',
             type: 'buy',
@@ -9,7 +13,7 @@ export default (req, res) => {
             id: 1
         },
         {
-            date: new Date('03.05.2024'),
+            date: '03.05.2024',
             fullName: "Мустафаева Аружан Байсебековна",
             sum: '32453',
             type: 'buy',
@@ -17,7 +21,7 @@ export default (req, res) => {
             id: 2
         },
         {
-            date: new Date('03.06.2024'),
+            date: '03.06.2024',
             fullName: "Адылова Асем Кубанычбековна",
             sum: '3453',
             type: 'buy',
@@ -25,7 +29,7 @@ export default (req, res) => {
             id: 3
         },
         {
-            date: new Date('03.06.2024'),
+            date: '03.06.2024',
             fullName: "Иван Иванов Иванович",
             sum: '252437',
             type: 'subscribe',
@@ -33,7 +37,7 @@ export default (req, res) => {
             id: 4
         },
         {
-            date: new Date('03.07.2024'),
+            date: '03.07.2024',
             fullName: "Мустафаев Бауыржан Байсебекович",
             sum: '253276',
             type: 'comeback',
@@ -41,7 +45,7 @@ export default (req, res) => {
             id: 5
         },
         {
-            date: new Date('03.07.2024'),
+            date: '03.07.2024',
             fullName: "Адылова Асем Кубанычбековна",
             sum: '13456',
             type: 'subscribe',
@@ -49,7 +53,7 @@ export default (req, res) => {
             id: 6
         },
         {
-            date: new Date('03.08.2024'),
+            date: '03.08.2024',
             fullName: "Мустафаева Аружан Байсебековна",
             sum: '554543',
             type: 'subscribe',
@@ -57,7 +61,7 @@ export default (req, res) => {
             id: 7
         },
         {
-            date: new Date('03.08.2024'),
+            date: '03.08.2024',
             fullName: "Мустафаев Бауыржан Байсебекович",
             sum: '146363',
             type: 'buy',
@@ -65,7 +69,7 @@ export default (req, res) => {
             id: 8
         },
         {
-            date: new Date('03.09.2024'),
+            date: '03.09.2024',
             fullName: "Адылова Асем Кубанычбековна",
             sum: '101300',
             type: 'comeback',
@@ -73,7 +77,7 @@ export default (req, res) => {
             id: 9
         },
         {
-            date: new Date('03.09.2024'),
+            date: '03.09.2024',
             fullName: "Мустафаева Аружан Байсебековна",
             sum: '501300',
             type: 'buy',
@@ -81,7 +85,7 @@ export default (req, res) => {
             id: 10
         },
         {
-            date: new Date('04.10.2024'),
+            date: '03.10.2024',
             fullName: "Мустафаев Бауыржан Байсебекович",
             sum: '601300',
             type: 'buy',
@@ -89,7 +93,7 @@ export default (req, res) => {
             id: 11
         },
         {
-            date: new Date('05.10.2024'),
+            date: '03.11.2024',
             fullName: "Адылова Асем Кубанычбековна",
             sum: '21300',
             type: 'subscribe',
