@@ -6,6 +6,14 @@ export default (req, res) => {
     const data = [
         {
             date: '03.02.2024',
+            fullName: "Пушкин Александр Сергеевич",
+            sum: '123102',
+            type: 'subscribe',
+            status: 'success',
+            id: 23
+        },
+        {
+            date: '03.02.2024',
             fullName: "Мартай Сымбат Ерболкызы",
             sum: '4423',
             type: 'comeback',
