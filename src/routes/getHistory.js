@@ -5,6 +5,54 @@ export default (req, res) => {
     if(!req.headers.token.includes('Bearer_')) return res.status(403).send({ type: 'AUTH_REQUIRED' })
     const data = [
         {
+            date: '03.02.2024',
+            fullName: "Мартай Сымбат Ерболкызы",
+            sum: '4423',
+            type: 'comeback',
+            status: 'reject',
+            id: 1235123
+        },
+        {
+            date: '03.01.2024',
+            fullName: "Мартай Сымбат Ерболкызы",
+            sum: '423402',
+            type: 'buy',
+            status: 'success',
+            id: 123510
+        },
+        {
+            date: '03.08.2024',
+            fullName: "Атабекова Диана Кайсаркызы",
+            sum: '43400',
+            type: 'subscribe',
+            status: 'reject',
+            id: 12357
+        },
+        {
+            date: '03.10.2024',
+            fullName: "Атабекова Диана Кайсаркызы",
+            sum: '45302',
+            type: 'buy',
+            status: 'success',
+            id: 12355
+        },
+        {
+            date: '03.20.2024',
+            fullName: "Бексултанова Нуржан Байгожаевна",
+            sum: '125125',
+            type: 'buy',
+            status: 'success',
+            id: 1441
+        },
+        {
+            date: '02.25.2024',
+            fullName: "Бексултанова Нуржан Байгожаевна",
+            sum: '23425',
+            type: 'comeback',
+            status: 'pending',
+            id: 2349
+        },
+        {
             date: '03.05.2024',
             fullName: "Мустафаев Бауыржан Байсебекович",
             sum: '2534',
