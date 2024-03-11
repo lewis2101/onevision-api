@@ -10,6 +10,7 @@ export default (req, res) => {
             sum: '123102',
             type: 'subscribe',
             status: 'success',
+            city: 'Алматы',
             id: 23
         },
         {
@@ -18,6 +19,7 @@ export default (req, res) => {
             sum: '4423',
             type: 'comeback',
             status: 'reject',
+            city: 'Алматы',
             id: 1235123
         },
         {
@@ -26,6 +28,7 @@ export default (req, res) => {
             sum: '423402',
             type: 'buy',
             status: 'success',
+            city: 'Алматы',
             id: 123510
         },
         {
@@ -34,6 +37,7 @@ export default (req, res) => {
             sum: '43400',
             type: 'subscribe',
             status: 'reject',
+            city: 'Алматы',
             id: 12357
         },
         {
@@ -42,6 +46,7 @@ export default (req, res) => {
             sum: '45302',
             type: 'buy',
             status: 'success',
+            city: 'Алматы',
             id: 12355
         },
         {
@@ -50,6 +55,7 @@ export default (req, res) => {
             sum: '125125',
             type: 'buy',
             status: 'success',
+            city: 'Алматы',
             id: 1441
         },
         {
@@ -58,6 +64,7 @@ export default (req, res) => {
             sum: '23425',
             type: 'comeback',
             status: 'pending',
+            city: 'Алматы',
             id: 2349
         },
         {
@@ -66,6 +73,7 @@ export default (req, res) => {
             sum: '2534',
             type: 'buy',
             status: 'success',
+            city: 'Алматы',
             id: 1
         },
         {
@@ -74,6 +82,7 @@ export default (req, res) => {
             sum: '32453',
             type: 'buy',
             status: 'reject',
+            city: 'Алматы',
             id: 2
         },
         {
@@ -82,6 +91,7 @@ export default (req, res) => {
             sum: '3453',
             type: 'buy',
             status: 'pending',
+            city: 'Алматы',
             id: 3
         },
         {
@@ -90,6 +100,7 @@ export default (req, res) => {
             sum: '252437',
             type: 'subscribe',
             status: 'pending',
+            city: 'Алматы',
             id: 4
         },
         {
@@ -98,6 +109,7 @@ export default (req, res) => {
             sum: '253276',
             type: 'comeback',
             status: 'success',
+            city: 'Астана',
             id: 5
         },
         {
@@ -106,6 +118,7 @@ export default (req, res) => {
             sum: '13456',
             type: 'subscribe',
             status: 'reject',
+            city: 'Астана',
             id: 6
         },
         {
@@ -114,6 +127,7 @@ export default (req, res) => {
             sum: '554543',
             type: 'subscribe',
             status: 'success',
+            city: 'Астана',
             id: 7
         },
         {
@@ -122,6 +136,7 @@ export default (req, res) => {
             sum: '146363',
             type: 'buy',
             status: 'pending',
+            city: 'Астана',
             id: 8
         },
         {
@@ -130,6 +145,7 @@ export default (req, res) => {
             sum: '101300',
             type: 'comeback',
             status: 'reject',
+            city: 'Астана',
             id: 9
         },
         {
@@ -138,6 +154,7 @@ export default (req, res) => {
             sum: '501300',
             type: 'buy',
             status: 'reject',
+            city: 'Астана',
             id: 10
         },
         {
@@ -146,6 +163,7 @@ export default (req, res) => {
             sum: '601300',
             type: 'buy',
             status: 'pending',
+            city: 'Астана',
             id: 11
         },
         {
@@ -154,6 +172,7 @@ export default (req, res) => {
             sum: '21300',
             type: 'subscribe',
             status: 'reject',
+            city: 'Астана',
             id: 12
         },
     ]
